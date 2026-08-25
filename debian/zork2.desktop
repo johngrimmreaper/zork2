@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Zork II
+GenericName=Interactive Fiction
+Comment=Face the Wizard of Frobozz
+Exec=/usr/games/zork2
+TryExec=/usr/games/zork2
+Icon=utilities-terminal
+Terminal=true
+Categories=Game;AdventureGame;
+Keywords=Zork;Infocom;Interactive Fiction;Text Adventure;
+StartupNotify=false

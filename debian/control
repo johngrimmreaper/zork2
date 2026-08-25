@@ -1,0 +1,25 @@
+Source: zork2
+Section: games
+Priority: optional
+Maintainer: Reaper <JohnGrimmReaper@disroot.org>
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.4.1
+Rules-Requires-Root: no
+Homepage: https://github.com/historicalsource/zork2
+Vcs-Browser: https://github.com/johngrimmreaper/zork2/tree/debian/sid
+Vcs-Git: https://github.com/johngrimmreaper/zork2.git -b debian/sid
+
+Package: zork2
+Architecture: all
+Depends:
+ frotz,
+ ${misc:Depends},
+Description: classic interactive fiction adventure
+ Zork II: The Wizard of Frobozz is the second commercial installment of
+ Infocom's classic Zork interactive-fiction trilogy. The player continues
+ exploring the Great Underground Empire while confronting the Wizard of
+ Frobozz and solving text-driven puzzles.
+ .
+ This package contains the MIT-licensed upstream Z-machine version 3 story
+ image and a launcher that runs it with the Frotz interpreter.
